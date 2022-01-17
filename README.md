@@ -35,7 +35,7 @@ The URL is: http://localhost:8080/gamerps/swagger-ui/index.html
 
 ## Test
 
-The information about the user (Matches, rounds (played, stats)) are in the matchController with these services:
+The information about the user (Matches, rounds played, stats) are in the matchController with these services:
 - /gamerps/api/user/round - Plays an automatic round with the current user (browser session)
 - /gamerps/api/user/round/data - Returns all the rounds played with the result by the user so far
 - /gamerps/api/user/reset -  Reset the number of the user rounds to 0.
